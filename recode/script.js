@@ -1,4 +1,3 @@
-
 function filtrar(categoria) {
     const cards = document.querySelectorAll('.card');
     cards.forEach(card => {
