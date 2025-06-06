@@ -4,23 +4,32 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Recode Jr - Materiais Educacionais</title>
+    <title>RECODE JR - MATERIAIS DE ESTUDO</title>
     <link rel="stylesheet" href="style.css" />
     <script src="script.js"></script>
 
 </head>
 <body>
-    <!--navbar-->
+        <!--navbar-->
+        
         <nav>
-            <ul>
-                <li><a href="homepage.html"><img src="../img/logo-recode.png"></a></li>
-                <li><a href="homepage.html">SOBRE</a></li>
-                <li><a href="homepage.html">SERVIÇOS</a></li>
-                <li><a href="homepage.html">PORTIFÓLIO</a></li>
-                <li><a href="homepage.html">EQUIPE</a></li>
-                <li><a href="homepage.html">CONTATO</a></li>
-                <li><a hfer="index.html">CONTEÚDOS</a></li>
-            </ul>
+            <!-- IN PROGRESS (responsive nav)
+            <a href="#" class="nav-hamburger">
+                <span class="nav-hamburger-line"></span>]
+                <span class="nav-hamburger-line"></span>
+                <span class="nav-hamburger-line"></span>
+            </a> -->
+            <div class="nav-menu">
+                <ul>
+                    <li><a href="homepage.html"><img src="../img/logo-recode.png" alt="RECODE JR"></a></li>
+                    <li><a href="homepage.html">SOBRE</a></li>
+                    <li><a href="homepage.html">SERVIÇOS</a></li>
+                    <li><a href="homepage.html">PORTIFÓLIO</a></li>
+                    <li><a href="homepage.html">EQUIPE</a></li>
+                    <li><a href="homepage.html">CONTATO</a></li>
+                    <li><a hfer="index.html">CONTEÚDOS</a></li>
+                </ul>
+            </div>
         </nav>
 
     <main>
@@ -35,11 +44,11 @@
             <h2>MATERIAIS DE ESTUDO</h2>
             <h4>Conteúdos autorais e gratuitos para aprofundar seus conhecimentos.</h4>
         </header>
-        <section class="materiais">
-            <div class="filtros">
-                <button onclick="filtrar('todos')">Todos</button>
-                <button onclick="filtrar('web')">Web</button>
-                <button onclick="filtrar('linguagem')">Linguagem</button>
+        <section class="container">
+            <div class="filters">
+                <button onclick="filters('all')">Todos</button>
+                <button onclick="filters('web')">Web</button>
+                <button onclick="filters('language')">Linguagem</button>
             </div>
             <div class="cards">
                 <div class="card web">
@@ -67,8 +76,8 @@
                     <a href="#">Download</a>
                 </div>
             </div>
-            <!--menssage-final-page-->
-            <p class="sugestao">Tem alguma sugestão de material que pode aparecer por aqui? <a href="form.html">Fale com a gente!</a></p>
+            <!--message-final-page-->
+            <p class="message">Tem alguma sugestão de material que pode aparecer por aqui? <a href="form.html">Fale com a gente!</a></p>
         </section>
     </main>
 

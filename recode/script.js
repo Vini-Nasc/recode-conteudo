@@ -1,9 +1,9 @@
-function filtrar(categoria) {
+function filters(categoria) {
     const cards = document.querySelectorAll('.card');
     cards.forEach(card => {
-        if (categoria === 'todos' || card.classList.contains(categoria)) {
+        if (categoria === 'all' || card.classList.contains(categoria)) {
             card.style.display = 'block';
-        } else {
+        } else{
             card.style.display = 'none';
         }
     });
