@@ -1,46 +1,37 @@
-
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>RECODE JR - FORM</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RECODE JR - BANNER</title>
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <nav>
-        <div class="nav-menu">
-            <ul>
-                <li><a href="homepage.html"><img src="../img/logo-recode.png" alt="RECODE JR"></a></li>
-                <li><a href="homepage.html">SOBRE</a></li>
-                <li><a href="homepage.html">SERVIÇOS</a></li>
-                <li><a href="homepage.html">PORTIFÓLIO</a></li>
-                <li><a href="homepage.html">EQUIPE</a></li>
-                <li><a href="homepage.html">CONTATO</a></li>
-                <li><a hfer="index.html">CONTEÚDOS</a></li>
-            </ul>
-        </div>
-    </nav>
-    <main class="forms">
-        <h2>Envie sua sugestão</h2>
-        <form onsubmit="return enviarSugestao(event)">
-            <label>Nome:</label>
-            <input type="text" id="nome" required /><br />
-            <label>E-mail:</label>
-            <input type="email" id="email" required /><br />
-            <label>Sugestão:</label>
-            <textarea id="sugestao" required></textarea><br />
-            <button type="submit">Enviar</button>
-        </form>
-        <p id="mensagem"></p>
+    <!--navbar-->
+        <nav>
+            <div class="nav-menu">
+                <ul>
+                    <li><a href="homepage.html"><img src="../img/logo-recode.png" alt="RECODE JR"></a></li>
+                    <li><a href="homepage.html">SOBRE</a></li>
+                    <li><a href="homepage.html">SERVIÇOS</a></li>
+                    <li><a href="homepage.html">PORTIFÓLIO</a></li>
+                    <li><a href="homepage.html">EQUIPE</a></li>
+                    <li><a href="homepage.html">CONTATO</a></li>
+                    <li><a hfer="index.html">CONTEÚDOS</a></li>
+                </ul>
+            </div>
+        </nav>
+    <main>
+        <section class="banner">
+            <img src="../img/equipe.png" alt="Equipe" />
+            <div class="info">
+                <h1>O NOSSO TIME TEM ACESSO A CAPACITAÇÕES INTERNAS E MATERIAIS EXCLUSIVOS,</h1>
+                <h3>venha fazer parte da nossa empresa!</h3>
+                <button onclick="alert('Página do PROSEL em breve!')">PROSEL</button>
+                <a href="form.html">CONTINUAR SEM SER MEMBRO</a>
+            </div>
+        </section>
     </main>
-    <script>
-        function enviarSugestao(event) {
-            event.preventDefault();
-            document.getElementById('mensagem').innerText = "Sugestão enviada com sucesso!";
-            return false;
-        }
-    </script>
     <footer>
         <div class="footer">
             <div class="footer-social">
