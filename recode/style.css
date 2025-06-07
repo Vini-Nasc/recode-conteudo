@@ -247,8 +247,8 @@ header h4{
 .banner a{
     text-decoration: none;
     padding: 10px 20px;
-    background-color: #269c9c;
-    color: white;
+    background-color: #d3d3d3;
+    color: black;
     cursor: pointer;
     border-radius: 10%;
     border: none;
