@@ -1,3 +1,4 @@
+/*script-filters*/
 function filters(categoria) {
     const cards = document.querySelectorAll('.card');
     cards.forEach(card => {
